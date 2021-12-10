@@ -129,20 +129,22 @@ a:link {
     justify-content: space-around;
     background-color: #444243;
     border: solid;
+    min-height: 8vh;
 }
 
 
 #footer p {
     color: #AFA9A9;
+    font-size: 12px;
 }
 
 
 #footer #green{
-    width: 50px;
+    width: 40px;
 }
 
 #footer #red{
-    width: 50px;
+    width: 40px;
 }
 
 
