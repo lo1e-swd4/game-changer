@@ -2,6 +2,12 @@
     margin: 0; padding: 0;
 }
 
+body {
+    background-image: url(../IMG/skyrim.png);
+    background-size: cover;
+}
+
+
 #header {
     max-width: 100%;
     max-height: 12vh;
@@ -54,7 +60,12 @@ a:link {
 
 
 #main {
-    min-height: 79vh;
+    width: 56vw;
+    margin: 10vh auto;
+    min-height: 150vh;
+    background-color: rgba(27, 26, 26, 0.81);
+
+    
 }
 
 
@@ -91,10 +102,6 @@ a:link {
     width: 50px;
 }
 
-body {
-    background-image: url(../IMG/skyrim.png);
-    background-size: cover;
-}
 
 
 
