@@ -69,24 +69,52 @@ a:link {
 }
 
 
+#section1 {
+    border: solid #AFA9A9;
+    max-width: 400px;
+    margin-top: 30vh;
+    border-radius: 50px;
+}
+
+
 #logo_2 {
     width: 450px;
 }
 
 #form {
-    padding-top: 200px;
+    margin-left: 5vw;
+    
 }
 
-
+#form h1 {
+    color: #AFA9A9;
+    font-size: 20px;
+}
 
 
 #message-area {
     resize: none;
 }
 
+.input_typing {
+    height: 30px;
+    width: 240px;
+    font-size: 15px;   
+}
 
+.flex {
+    display: flex; 
+    flex-direction: row;
+    
+}
 
-
+.flex p {
+    margin-top: 70px;
+    border: solid #AFA9A9;
+    border-radius:25px;
+    color: #AFA9A9;
+    font-size: 20px;
+}
 
 
 
