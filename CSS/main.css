@@ -91,6 +91,11 @@ a:link {
     width: 50px;
 }
 
+body {
+    background-image: url(../IMG/skyrim.png);
+    background-size: cover;
+}
+
 
 
 
