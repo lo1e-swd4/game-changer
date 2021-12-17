@@ -14,7 +14,9 @@ body {
 
 
 @media screen and (max-width: 480px) {
-
+    body {
+        min-height: 116vh;
+    }
     
     #header {
         max-width: 100%;
@@ -32,25 +34,22 @@ body {
     #header .purple {
         display: flex;
         flex-direction: row;
+        margin-top: 4vh;
+    }
+
+    #header nav {
+        flex: 1;
+        margin-left: 0vw;
+        
     }
     
     
-    #main {
-        max-width: 60vw;
-        margin: 10vh auto;
-        background-color: rgba(27, 26, 26, 0.81);
-    }
-
-
-    #footer img {
-     width: 10px;
-    }
+    
 
 
 
-    #main img {
-        display: none;
-    }
+
+   
 
 
     a:link {
@@ -66,8 +65,85 @@ body {
 
     #header .purple li a {
         color: #AFA9A9;
+        font-size: 12px;
+        padding-left: 0.5vw;
+    }
+
+    /* end of header */
+    /* begin of main */
 
 
+    #main img {
+        display: none;
+    }
+
+    #main {
+        max-width: 70vw;
+        margin: 6vh auto;
+        background-color: rgba(27, 26, 26, 0.81);
+    }
+
+
+
+    #section1 {
+        border: solid #AFA9A9;
+        max-width: 100vw;
+        border-radius: 15px;
+    }
+
+    #form h1 {
+        color: #AFA9A9;
+        font-size: 20px;
+    }
+
+    #main .input_typing {
+        height: 2vh;
+        width: 30vw;
+        font-size: 10px;
+    }
+
+    #message-area {
+        width: 50vw;
+        height: 10vh;
+    }
+
+
+
+    #cheese {
+        border: solid #AFA9A9;
+        border-radius: 15px;
+    }
+
+    .grid p {
+        color: #AFA9A9;
+    }
+
+
+
+
+
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #444243;
+        border: solid;
+        min-height: 8vh;
+    }
+    #footer p { 
+        color: #AFA9A9;
+        font-size: 10px;
+    }
+
+    #footer #green{
+        width: 40px;
+    }
+
+    #footer #red{
+        width: 40px;
+    }
 
 
 }
@@ -245,7 +321,7 @@ body {
     }
 
 
-    #footer p {
+    #footer p { 
         color: #AFA9A9;
         font-size: 12px;
     }
