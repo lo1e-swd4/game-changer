@@ -126,11 +126,56 @@ a:link {
 .marvel {
     width: 15vw;
     margin-top: 10vh;
+    padding-left: 6.5vw;
+    position: absolute;
 }
 
+.mar{
+    margin-top: 15vh;
+    padding-left: 22vw;
+}
+
+.minecraft {
+    width: 15vw;
+    margin-top: 10vh;
+    padding-left: 30vw;
+    position: absolute;
+}
+
+
+
 p {
+   position: absolute;
    color: #AFA9A9;
 }
+.mine {
+    padding-left: 45.5vw;
+}
+
+.rdr {
+    width: 15vw;
+    margin-top: 20vh;
+    padding-left: 30vw;
+    position: absolute;
+
+
+}
+
+.ciri {
+    width: 15vw;
+    margin-top: 20vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.geralt {
+    padding-left: 45.5vw;
+}
+
+.arthur {
+
+}
+
 
 
 
