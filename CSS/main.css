@@ -17,7 +17,7 @@ body {
 
 @media screen and (max-width: 480px) {
     body {
-        min-height: 116vh;
+        min-height: 100vh;
         
     }
     
@@ -115,12 +115,21 @@ body {
     #cheese {
         border: solid #AFA9A9;
         border-radius: 15px;
+        min-height: 35vh;
     }
 
     .grid p {
         color: #AFA9A9;
+        font-size: 12px ;
+        padding-left: 2vw;
     }
 
+
+    #form {
+        padding-left: 2vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
 
 
 
@@ -133,7 +142,7 @@ body {
         justify-content: space-around;
         background-color: #444243;
         border: solid;
-        min-height: 8vh;
+        min-height: 11.1vh;
     }
     #footer p { 
         color: #AFA9A9;
@@ -313,11 +322,11 @@ body {
     }
 
     #footer #green{
-        width: 40px;
+        width: 55px;
     }
 
     #footer #red{
-        width: 40px;
+        width: 55px;
     }
 
     
