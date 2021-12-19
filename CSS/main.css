@@ -5,8 +5,97 @@
 /* Basis Responsive indeling devices */
 /* smallere telefoon 0-480px */
 @media screen and (max-width: 480px) {
+    * {
+        margin: 0; padding: 0;
+
+    }
+    
+    body {
+        background-repeat: no-repeat;
+        background-image: url(../IMG/skyrim.png);
+        background-size: cover;
+        height: 80vh;
+    }
+    #header {
+
+     max-width: 100%;
+    
+     max-height: 20vh;
+    
+     border: solid;
+    
+     display: flex;
+    
+     background-color: #444243;
+    
+         }
+    
+         #header img {
+    
+         width: 100px;
+    
+         }
+    
+         #header .purple {
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        margin-top: 2.5vh;
+    
+         }
+    
+         #header nav {
+    
+        flex: 1;
+    
+        margin-left: 2vw; 
+    
+         }
     
 
+    
+         a:link {
+    
+         text-decoration: none;
+    
+         }
+    
+         #header .purple li {
+    
+         list-style-type: none;
+    
+         }
+    
+         #header .purple li a {
+    
+         color: #AFA9A9;
+    
+         font-size: 20px;
+    
+         padding-left: 03vw;
+    
+         }
+    
+
+
+
+
+    #main {
+
+        max-width: 70vw;
+
+        margin: 4vh auto;
+
+        background-color: rgba(27, 26, 26, 0.81);
+
+        min-height: 70vh;
+
+    }
+    
+    
+   
 }
 /* Tablets en breedere telefoons min 481px and max 768px */
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -14,9 +103,125 @@
 }
 /* Grotere tablets, laptop en smalle schermen min 769px and max 1279px */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
+    * {
+        margin: 0; padding: 0;
+
+    }
     
+    body {
+        background-repeat: no-repeat;
+        background-image: url(../IMG/skyrim.png);
+        background-size: cover;
+        /* min-height: 100vh; */
+    }
+    #header {
+
+     max-width: 100%;
+    
+     height: 8vh;
+    
+     border: solid;
+    
+     display: flex;
+    
+     background-color: #444243;
+    
+         }
+    
+         #header img {
+    
+         width: 100px;
+    
+         }
+    
+         #header .purple {
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        margin-top: 2.5vh;
+    
+         }
+    
+         #header nav {
+    
+        flex: 1;
+    
+        margin-left: 2vw; 
+    
+         }
+    
+
+    
+         a:link {
+    
+         text-decoration: none;
+    
+         }
+    
+         #header .purple li {
+    
+         list-style-type: none;
+    
+         }
+    
+         #header .purple li a {
+    
+         color: #AFA9A9;
+    
+         font-size: 20px;
+    
+         padding-left: 03vw;
+    
+         }
+         #footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #444243;
+            border: solid;
+            height: 5vh;
+        }
+        
+        
+        #footer p {
+            color: #AFA9A9;
+            font-size: 12px;
+        }
+        
+        
+        #footer #green{
+            width: 40px;
+        
+        }
+        
+        #footer #red{
+            width: 40px;
+        }
+    
+
+
+
+
+    #main {
+
+        max-width: 70vw;
+
+        margin: 4vh auto;
+
+        background-color: rgba(27, 26, 26, 0.81);
+
+        min-height: 78vh;
+
+    }  
+
+
 }
 /* Grotere desktops en schermen min 1280px */
+
+
 @media screen and (min-width: 1280px) {
     * {
     margin: 0; padding: 0;
@@ -97,7 +302,9 @@ a:link {
 
 /* end of main */
 /* begin of footer */
-
+footer {
+        margin: 5.2vh;
+}
 
 #footer {
     display: flex;
@@ -107,6 +314,7 @@ a:link {
     background-color: #444243;
     border: solid;
     min-height: 8vh;
+
 }
 
 
