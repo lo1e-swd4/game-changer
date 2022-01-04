@@ -68,7 +68,10 @@ a:link {
     
 }
 
-
+h1 {
+    border-top: 5px solid white;
+    padding: 5vh;
+}
 
 
 
