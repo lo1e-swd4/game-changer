@@ -91,9 +91,38 @@ body {
     }
 
 
+    #main h1 {
+        font-size: 14px;
+    }
 
 
 
+
+
+
+
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #444243;
+        border: solid;
+        min-height: 11.1vh;
+    }
+    #footer p { 
+        color: #AFA9A9;
+        font-size: 10px;
+    }
+
+    #footer #green{
+        width: 40px;
+    }
+
+    #footer #red{
+        width: 40px;
+    }
 }
 
 
