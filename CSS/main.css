@@ -5,7 +5,69 @@
 body {
     background-image: url(../IMG/skyrim.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    
 }
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        min-height: 100vh;
+        
+    }
+    
+    #header {
+        max-width: 100%;
+        max-height: 12vh;
+        border: solid;
+        display: flex;
+        background-color: #444243;
+    }
+    
+    #header img {
+        width: 100px;
+    }
+    
+
+    #header .purple {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4vh;
+    }
+
+    #header nav {
+        flex: 1;
+        margin-left: 0vw;
+        
+    }
+    
+    
+    
+
+
+
+
+   
+
+
+    a:link {
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #header {
