@@ -1,4 +1,23 @@
-* {
+@charset "UTF-8";
+
+ 
+
+/* Basis Responsive indeling devices */
+/* smallere telefoon 0-480px */
+@media screen and (max-width: 480px) {
+    
+}
+/* Tablets en breedere telefoons min 481px and max 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+}
+/* Grotere tablets, laptop en smalle schermen min 769px and max 1279px */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    
+}
+/* Grotere desktops en schermen min 1280px */
+@media screen and (min-width: 1280px) {
+  * {
     margin: 0; padding: 0;
 }
 
@@ -64,8 +83,6 @@ a:link {
     margin: 10vh auto;
     min-height: 150vh;
     background-color: rgba(27, 26, 26, 0.81);
-
-    
 }
 
 
@@ -102,11 +119,19 @@ a:link {
     width: 50px;
 }
 
+.h {
+    width: 34vw;
+    margin: 5vh;
+    margin-left: 25vh;
+}
 
-
-
-
-
-
-
-
+#main p{
+    margin: 2vh;
+    color:white;
+}
+#main h1{
+    margin: 2vh;
+    color:white;
+    font-size: 35px;
+}
+}
