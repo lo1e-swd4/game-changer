@@ -204,8 +204,200 @@ p {
 
 /* Tablets en breedere telefoons min 481px and max 768px */
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    * {
+        margin: 0; padding: 0;
+
+    }
     
+    body {
+        background-repeat: no-repeat;
+        background-image: url(../IMG/skyrim.png);
+        background-size: cover;
+        /* min-height: 100vh; */
+    }
+    #header {
+
+     max-width: 100%;
+    
+     height: 8vh;
+    
+     border: solid;
+    
+     display: flex;
+    
+     background-color: #444243;
+    
+         }
+    
+         #header img {
+    
+         width: 100px;
+    
+         }
+    
+         #header .purple {
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        margin-top: 2.5vh;
+    
+         }
+    
+         #header nav {
+    
+        flex: 1;
+    
+        margin-left: 2vw; 
+    
+         }
+    
+
+    
+         a:link {
+    
+         text-decoration: none;
+    
+         }
+    
+         #header .purple li {
+    
+         list-style-type: none;
+    
+         }
+    
+         #header .purple li a {
+    
+         color: #AFA9A9;
+    
+         font-size: 20px;
+    
+         padding-left: 03vw;
+    
+         }
+         #footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #444243;
+            border: solid;
+            height: 5vh;
+        }
+        
+        
+        #footer p {
+            color: #AFA9A9;
+            font-size: 12px;
+        }
+        
+        
+        #footer #green{
+            width: 40px;
+        
+        }
+        
+        #footer #red{
+            width: 40px;
+        }
+    
+
+
+
+
+    #main {
+
+        max-width: 70vw;
+
+        margin: 4vh auto;
+
+        background-color: rgba(27, 26, 26, 0.81);
+
+        min-height: 78vh;
+
+    }  
+
+    .slideshow1 {
+        position: absolute;
+        width: 26vw;
+        margin: 10vh;
+        padding-right: 2vw;
+    }
+    
+    .slideshow2 {
+        width: 13vw;
+        margin-top: 10vh;
+        margin-left: 5vh;
+        margin-bottom: 0vh;
+        padding-left: 32.8vw;
+    }
+    .slideshow3 {
+        width: 13vw;
+        margin-top: 0vh;
+        margin-left: 5vh;
+        padding-left: 32.8vw;
+        padding-bottom: 0vw;
 }
+.nioh-2{
+    display: none;
+}
+.nioh-2 p{
+    display:none;
+}
+.cyberpunk{
+    display: none;
+}
+.punk{
+    display: none;
+}
+
+.rdr{
+    display: none;
+}
+.arthur{
+    display: none;
+}
+
+.marvel {
+    width: 20vw;
+    margin-top: 10vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.mar{
+    margin-top: 12vh;
+    padding-left: 27vw;
+}
+.ciri {
+    width: 20vw;
+    margin-top: 10vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.geralt {
+    padding-left: 27vw;
+    margin-top: 14vh;
+}
+#death_loop img {
+    width: 20vw;
+    margin-top: 12vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+#death-loop{  
+    position: absolute;
+    margin-top: 16vh;
+    padding-left: 27vw;
+}
+p {
+    color: #AFA9A9;
+}
+}    
+
 /* Grotere tablets, laptop en smalle schermen min 769px and max 1279px */
 @media screen and (min-width: 769px) and (max-width: 1279px) {
     * {
@@ -594,14 +786,14 @@ a:link {
     padding-left: 6.5vw;
     position: absolute;
 }
-#nioh-2 img{
+.nioh-2 img{
     width: 15vw;
     margin-top: 25vh;
     padding-left: 30vw;
     position: absolute;
 }
 
-#nioh-2 p {
+.nioh-2 p {
     position: absolute;
     margin-top: 27vh;
     padding-left: 46.4vw;
@@ -616,7 +808,7 @@ a:link {
 
 
 
-
+f
 
 
 
