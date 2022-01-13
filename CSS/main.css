@@ -126,12 +126,23 @@ a:link {
 }
 
 #main p{
+    text-align: center;
     margin: 2vh;
     color:white;
+    border: transparent 2px;
+    width: 53vw;
 }
 #main h1{
     margin: 2vh;
+    padding:1vw;
     color:white;
     font-size: 35px;
+    text-align: center;
 }
+ul li  {
+    margin-left:3vw;
+        list-style-type: circle;
+        color: white;
+    }
+
 }
