@@ -125,7 +125,7 @@ a:link {
     margin-left: 25vh;
 }
 
-#main p{
+main .main{
     text-align: center;
     margin: 2vh;
     color:white;
@@ -145,4 +145,16 @@ ul li  {
         color: white;
     }
 
+}
+.p {
+    color: white;
+}
+
+.bought{
+border:solid 2px lightgray;
+background-color:lightgray;
+color:black;
+width: 10vw;
+text-align: center;
+margin-left:20vw;
 }
