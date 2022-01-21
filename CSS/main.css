@@ -722,11 +722,26 @@ a:link {
     padding-left: 28vw;
 }
 .slideshow3 {
+
+}
+.slideshow4{
+    width: 10vw;
+    margin-top: 11vh;
+    margin-left: 4vh;
+    padding-left: 28vw;    
+    padding-bottom: 0vw;
+}
+.slideshow5{
     width: 10vw;
     margin-top: 0vh;
     margin-left: 4vh;
     padding-left: 28vw;
     padding-bottom: 0vw;
+}
+.slideshow6{
+    width: 20vw;
+    margin-top: -21vh;
+    padding-left: 9vw;
 }
 .marvel {
     width: 15vw;
@@ -805,4 +820,5 @@ a:link {
     margin-top: 27vh;
     padding-left: 23vw;
 }
+
 }
