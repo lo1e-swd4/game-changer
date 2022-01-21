@@ -60,12 +60,11 @@ a:link {
 
 
 #main {
-    width: 56vw;
+    width: 54vw;
     margin: 10vh auto;
-    min-height: 150vh;
-    background-color: rgba(27, 26, 26, 0.81);
-
+    background-color:  #444242;
     
+
 }
 
 
@@ -102,8 +101,33 @@ a:link {
     width: 50px;
 }
 
+.shirts img {
+    width:200px;
+    height: 200px;
+}
 
+  @media screen  and (max-width: 480px){
+    #main main{
+      height: 20vh; 
+      width: 30vw;
+    }  
+    # {
 
+    }
+  }  
+  @media screen and (min-width:769px) and (max-width:1279px) {
+    #main main{
+        height: 20vh; 
+        width: 30vw;
+  }  
+}    
+      
+    @media screen and (min-width:1280px) {
+        #main main{
+            height: 20vh; 
+            width: 30vw;
+    }
+}
 
 
 
