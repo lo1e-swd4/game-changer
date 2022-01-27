@@ -120,6 +120,17 @@
         min-height: 78vh;
 
     }
+    .slideshow {
+        width: 45vw;
+        display: none;
+        position: absolute;
+        margin-left: 10vw;
+    }
+    
+    .slideshow.visible {
+        display: block;
+    }
+
     .slideshow1 {
         position: absolute;
         width: 26vw;
@@ -167,13 +178,14 @@
 
 .marvel {
     width: 20vw;
-    margin-top: 10vh;
+    margin-top: 18vh;
     padding-left: 6.5vw;
     position: absolute;
 }
 
 .mar{
     margin-top: 12vh;
+    padding-top: 20vh;
     padding-left: 27vw;
 }
 .ciri {
@@ -318,7 +330,15 @@ p {
 
         min-height: 78vh;
 
-    }  
+    }  .slideshow {
+    width: 10vw;
+    display: none;
+    position: absolute;
+}
+
+.slideshow.visible {
+    display: block;
+}
 
     .slideshow1 {
         position: absolute;
@@ -514,6 +534,20 @@ p {
 
         min-height: 78vh;
 
+    }  .slideshow {
+        width: 25vw;
+        display: none;
+        position: absolute;
+        margin-left: 19vw;
+        margin-top: 1vh;
+    }
+
+    #slideshow-container {
+        height: 30vh;
+    }
+    
+    .slideshow.visible {
+        display: block;
     }  
 
     .slideshow1 {
@@ -559,13 +593,13 @@ p {
 
 .marvel {
     width: 20vw;
-    margin-top: 10vh;
+    margin-top: -12vh;
     padding-left: 6.5vw;
     position: absolute;
 }
 
 .mar{
-    margin-top: 12vh;
+    margin-top: -8vh;
     padding-left: 27vw;
 }
 .ciri {
@@ -707,6 +741,25 @@ a:link {
     width: 40px;
 }
 
+#slideshow-container {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.slideshow {
+    margin-left: 15vw;
+    width: 10vw;
+    display: none;
+    position: absolute;
+    height: 40vh;
+    width: 24vw;
+}
+
+.slideshow.visible {
+    display: block;
+}
+
 .slideshow1 {
     position: absolute;
     width: 20vw;
@@ -722,6 +775,13 @@ a:link {
     padding-left: 28vw;
 }
 .slideshow3 {
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    padding-left: 28vw;    
+    padding-bottom: 0vw;
+    height: 16vh;
+    width: 15vw;
 
 }
 .slideshow4{
@@ -741,23 +801,49 @@ a:link {
 .slideshow6{
     width: 20vw;
     margin-top: -21vh;
-    padding-left: 9vw;
+    padding-left: 11vw;
+    height: 26vh;
+    width: 25vw;
+}
+.slideshow7{
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    padding-left: 28vw;
+    padding-bottom: 0vw;
+}
+.slideshow8{
+    width: 20vw;
+    margin-top: -7vh;
+    padding-left: 11vw;
+    height: 16vh;
+    width: 15vw;
+}
+.slideshow9{
+    width: 10vw;
+    margin-top: -7vh;
+    margin-left: 2vw;
+    padding-left: 28vw;
+    padding-bottom: 0vw;
+    height: 16vh;
+    width:15vw;
 }
 .marvel {
     width: 15vw;
-    margin-top: 10vh;
+    margin-top: 41vh;
     padding-left: 6.5vw;
     position: absolute;
 }
 
 .mar{
-    margin-top: 15vh;
+    margin-top: 8vh;
+    padding-top: 45vh;
     padding-left: 22vw;
 }
 
 .cyberpunk {
     width: 15vw;
-    margin-top: 10vh;
+    margin-top: 41vh;
     padding-left: 30vw;
     position: absolute;
 }
