@@ -7,6 +7,10 @@ body {
     background-size: cover;
 }
 
+
+
+
+
 #header {
     max-width: 100%;
     border: solid;
@@ -15,6 +19,7 @@ body {
 
 
 #header nav {
+    flex-direction: row;
     flex: 1;
 }
 
@@ -86,6 +91,7 @@ a:link {
     color: #AFA9A9;
 
 }
+
 
 @media screen  and (max-width: 480px){
     #main main{
