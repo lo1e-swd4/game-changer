@@ -1,0 +1,910 @@
+@charset "UTF-8";
+
+ 
+
+/* Basis Responsive indeling devices */
+/* smallere telefoon 0-480px */
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0; padding: 0;
+
+    }
+    
+    body {
+        background-repeat: no-repeat;
+        background-image: url(../IMG/skyrim.png);
+        background-size: cover;
+        /* min-height: 100vh; */
+    }
+
+    #header {
+
+     max-width: 100%;
+    
+     height: 8vh;
+    
+     border: solid;
+    
+     display: flex;
+    
+     background-color: #444243;
+    
+    
+         }
+    
+         #header img {
+    
+         width: 100px;
+    
+         }
+    
+         #header .purple {
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        margin-top: 2.5vh;
+    
+         }
+    
+         #header nav {
+    
+        flex: 1;
+    
+        margin-left: 2vw; 
+    
+         }
+    
+
+    
+         a:link {
+    
+         text-decoration: none;
+    
+         }
+    
+         #header .purple li {
+    
+         list-style-type: none;
+    
+         }
+    
+         #header .purple li a {
+    
+         color: #AFA9A9;
+    
+         font-size: 10px;
+    
+         padding-left: 03vw;
+    
+         }
+         #footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #444243;
+            border: solid;
+            height: 5vh;
+        }
+        
+        
+        #footer p {
+            color: #AFA9A9;
+            font-size: 12px;
+        }
+        
+        
+        #footer #green{
+            width: 40px;
+        
+        }
+        
+        #footer #red{
+            width: 40px;
+        }
+    
+
+
+
+
+    #main {
+
+        max-width: 70vw;
+
+        margin: 4vh auto;
+
+        background-color: rgba(27, 26, 26, 0.81);
+
+        min-height: 78vh;
+
+    }
+    .slideshow {
+        width: 45vw;
+        display: none;
+        position: absolute;
+        margin-left: 10vw;
+    }
+    
+    .slideshow.visible {
+        display: block;
+    }
+
+    .slideshow1 {
+        position: absolute;
+        width: 26vw;
+        margin: 10vh;
+        padding-right: 5vw;
+    }
+    
+    .slideshow2 {
+        width: 13vw;
+        margin-top: 10vh;
+        margin-left: 5vh;
+        margin-bottom: 0vh;
+        padding-left: 32.8vw;
+    }
+    .slideshow3 {
+        width: 13vw;
+        margin-top: 0vh;
+        margin-left: 5vh;
+        padding-left: 32.8vw;
+        padding-bottom: 0vw;
+    }
+.nioh-2{
+    display: none;
+}
+.nioh-2 p{
+    display:none;
+}
+.cyberpunk{
+    display: none;
+}
+.punk{
+    display: none;
+}
+
+.rdr{
+    width: 20vw;
+    margin-top: 10vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+.arthur{
+    margin-top: 12vh;
+    padding-left: 27vw;
+}
+
+.marvel {
+    width: 20vw;
+    margin-top: 18vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.mar{
+    margin-top: 12vh;
+    padding-top: 20vh;
+    padding-left: 27vw;
+}
+.ciri {
+    width: 22vw;
+    margin-top: 26vh;
+    padding-left: 6.8vw;
+    position: absolute;
+}
+
+.geralt {
+    padding-left: 33vw;
+    margin-top: 14vh;
+}
+#death_loop img {
+    width: 20vw;
+    margin-top: 10vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+#death-loop{  
+    position: absolute;
+    margin-top: 11vh;
+    padding-left: 29vw;
+}
+p {
+    color: #AFA9A9;
+}
+}    
+
+/* Tablets en breedere telefoons min 481px and max 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    * {
+        margin: 0; padding: 0;
+
+    }
+    
+    body {
+        background-repeat: no-repeat;
+        background-image: url(../IMG/skyrim.png);
+        background-size: cover;
+        /* min-height: 100vh; */
+    }
+    #header {
+
+     max-width: 100%;
+    
+     height: 8vh;
+    
+     border: solid;
+    
+     display: flex;
+    
+     background-color: #444243;
+    
+         }
+    
+         #header img {
+    
+         width: 100px;
+    
+         }
+    
+         #header .purple {
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        margin-top: 2.5vh;
+    
+         }
+    
+         #header nav {
+    
+        flex: 1;
+    
+        margin-left: 2vw; 
+    
+         }
+    
+
+    
+         a:link {
+    
+         text-decoration: none;
+    
+         }
+    
+         #header .purple li {
+    
+         list-style-type: none;
+    
+         }
+    
+         #header .purple li a {
+    
+         color: #AFA9A9;
+    
+         font-size: 20px;
+    
+         padding-left: 03vw;
+    
+         }
+         #footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #444243;
+            border: solid;
+            height: 5vh;
+        }
+        
+        
+        #footer p {
+            color: #AFA9A9;
+            font-size: 12px;
+        }
+        
+        
+        #footer #green{
+            width: 40px;
+        
+        }
+        
+        #footer #red{
+            width: 40px;
+        }
+    
+
+
+
+
+    #main {
+
+        max-width: 70vw;
+
+        margin: 4vh auto;
+
+        background-color: rgba(27, 26, 26, 0.81);
+
+        min-height: 78vh;
+
+    }  .slideshow {
+    width: 10vw;
+    display: none;
+    position: absolute;
+}
+
+.slideshow.visible {
+    display: block;
+}
+
+    .slideshow1 {
+        position: absolute;
+        width: 26vw;
+        margin: 10vh;
+        padding-right: 2vw;
+    }
+    
+    .slideshow2 {
+        width: 13vw;
+        margin-top: 10vh;
+        margin-left: 5vh;
+        margin-bottom: 0vh;
+        padding-left: 32.8vw;
+    }
+    .slideshow3 {
+        width: 13vw;
+        margin-top: 0vh;
+        margin-left: 5vh;
+        padding-left: 32.8vw;
+        padding-bottom: 0vw;
+}
+.nioh-2{
+    display: none;
+}
+.nioh-2 p{
+    display:none;
+}
+.cyberpunk{
+    display: none;
+}
+.punk{
+    display: none;
+}
+
+.rdr{
+    display: none;
+}
+.arthur{
+    display: none;
+}
+
+.marvel {
+    width: 20vw;
+    margin-top: 10vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.mar{
+    margin-top: 12vh;
+    padding-left: 27vw;
+}
+.ciri {
+    width: 20vw;
+    margin-top: 10vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.geralt {
+    padding-left: 27vw;
+    margin-top: 14vh;
+}
+#death_loop img {
+    width: 20vw;
+    margin-top: 12vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+#death-loop{  
+    position: absolute;
+    margin-top: 16vh;
+    padding-left: 27vw;
+}
+p {
+    color: #AFA9A9;
+}
+}    
+
+/* Grotere tablets, laptop en smalle schermen min 769px and max 1279px */
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    * {
+        margin: 0; padding: 0;
+
+    }
+    
+    body {
+        background-repeat: no-repeat;
+        background-image: url(../IMG/skyrim.png);
+        background-size: cover;
+        /* min-height: 100vh; */
+    }
+    #header {
+
+     max-width: 100%;
+    
+     height: 8vh;
+    
+     border: solid;
+    
+     display: flex;
+    
+     background-color: #444243;
+    
+         }
+    
+         #header img {
+    
+         width: 100px;
+    
+         }
+    
+         #header .purple {
+    
+        display: flex;
+    
+        flex-direction: row;
+    
+        margin-top: 2.5vh;
+    
+         }
+    
+         #header nav {
+    
+        flex: 1;
+    
+        margin-left: 2vw; 
+    
+         }
+    
+
+    
+         a:link {
+    
+         text-decoration: none;
+    
+         }
+    
+         #header .purple li {
+    
+         list-style-type: none;
+    
+         }
+    
+         #header .purple li a {
+    
+         color: #AFA9A9;
+    
+         font-size: 20px;
+    
+         padding-left: 03vw;
+    
+         }
+         #footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #444243;
+            border: solid;
+            height: 5vh;
+        }
+        
+        
+        #footer p {
+            color: #AFA9A9;
+            font-size: 12px;
+        }
+        
+        
+        #footer #green{
+            width: 40px;
+        
+        }
+        
+        #footer #red{
+            width: 40px;
+        }
+    
+
+
+
+
+    #main {
+
+        max-width: 70vw;
+
+        margin: 4vh auto;
+
+        background-color: rgba(27, 26, 26, 0.81);
+
+        min-height: 78vh;
+
+    }  .slideshow {
+        width: 25vw;
+        display: none;
+        position: absolute;
+        margin-left: 19vw;
+        margin-top: 1vh;
+    }
+
+    #slideshow-container {
+        height: 30vh;
+    }
+    
+    .slideshow.visible {
+        display: block;
+    }  
+
+    .slideshow1 {
+        position: absolute;
+        width: 26vw;
+        margin: 10vh;
+        padding-right: 2vw;
+    }
+    
+    .slideshow2 {
+        width: 13vw;
+        margin-top: 10vh;
+        margin-left: 5vh;
+        margin-bottom: 0vh;
+        padding-left: 32.8vw;
+    }
+    .slideshow3 {
+        width: 13vw;
+        margin-top: 0vh;
+        margin-left: 5vh;
+        padding-left: 32.8vw;
+        padding-bottom: 0vw;
+}
+.nioh-2{
+    display: none;
+}
+.nioh-2 p{
+    display:none;
+}
+.cyberpunk{
+    display: none;
+}
+.punk{
+    display: none;
+}
+
+.rdr{
+    display: none;
+}
+.arthur{
+    display: none;
+}
+
+.marvel {
+    width: 20vw;
+    margin-top: -12vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.mar{
+    margin-top: -8vh;
+    padding-left: 27vw;
+}
+.ciri {
+    width: 20vw;
+    margin-top: 10vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.geralt {
+    padding-left: 27vw;
+    margin-top: 14vh;
+}
+#death_loop img {
+    width: 20vw;
+    margin-top: 12vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+#death-loop{  
+    position: absolute;
+    margin-top: 16vh;
+    padding-left: 27vw;
+}
+p {
+    color: #AFA9A9;
+}
+}
+/* Grotere desktops en schermen min 1280px */
+
+
+@media screen and (min-width: 1280px) {
+    * {
+    margin: 0; padding: 0;
+}
+
+body {
+    background-image: url(../IMG/skyrim.png);
+    background-size: cover;
+}
+
+
+#header {
+    max-width: 100%;
+    max-height: 12vh;
+    border: solid;
+    display: flex;
+    background-color: #444243;
+}
+
+#header nav {
+    flex: 1;
+}
+
+#header img {
+    width: 110px;
+    
+}
+
+
+.paars {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#header .purple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+#header .purple li {
+    list-style-type: none;
+    
+}
+
+
+#header .purple li a {
+    color: #AFA9A9;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* end of header */
+/* begin of main */
+
+
+#main {
+    width: 56vw;
+    margin: 10vh auto;
+    min-height: 150vh;
+    background-color: rgba(27, 26, 26, 0.81);
+
+    
+}
+
+
+
+
+
+
+
+
+/* end of main */
+/* begin of footer */
+
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #444243;
+    border: solid;
+    min-height: 8vh;
+
+}
+
+
+#footer p {
+    color: #AFA9A9;
+    font-size: 12px;
+}
+
+
+#footer #green{
+    width: 40px;
+
+}
+
+#footer #red{
+    width: 40px;
+}
+
+#slideshow-container {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.slideshow {
+    margin-left: 15vw;
+    width: 10vw;
+    display: none;
+    position: absolute;
+    height: 40vh;
+    width: 24vw;
+}
+
+.slideshow.visible {
+    display: block;
+}
+
+.slideshow1 {
+    position: absolute;
+    width: 20vw;
+    margin: 10vh;
+    padding-left: 4vw;
+}
+
+.slideshow2 {
+    width: 10vw;
+    margin-top: 12.5vh;
+    margin-left: 4vh;
+    margin-bottom: 0vh;
+    padding-left: 28vw;
+}
+.slideshow3 {
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    padding-left: 28vw;    
+    padding-bottom: 0vw;
+    height: 16vh;
+    width: 15vw;
+
+}
+.slideshow4{
+    width: 10vw;
+    margin-top: 11vh;
+    margin-left: 4vh;
+    padding-left: 28vw;    
+    padding-bottom: 0vw;
+}
+.slideshow5{
+    width: 10vw;
+    margin-top: 0vh;
+    margin-left: 4vh;
+    padding-left: 28vw;
+    padding-bottom: 0vw;
+}
+.slideshow6{
+    width: 20vw;
+    margin-top: -21vh;
+    padding-left: 11vw;
+    height: 26vh;
+    width: 25vw;
+}
+.slideshow7{
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    padding-left: 28vw;
+    padding-bottom: 0vw;
+}
+.slideshow8{
+    width: 20vw;
+    margin-top: -7vh;
+    padding-left: 11vw;
+    height: 16vh;
+    width: 15vw;
+}
+.slideshow9{
+    width: 10vw;
+    margin-top: -7vh;
+    margin-left: 2vw;
+    padding-left: 28vw;
+    padding-bottom: 0vw;
+    height: 16vh;
+    width:15vw;
+}
+.marvel {
+    width: 15vw;
+    margin-top: 41vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.mar{
+    margin-top: 8vh;
+    padding-top: 45vh;
+    padding-left: 22vw;
+}
+
+.cyberpunk {
+    width: 15vw;
+    margin-top: 41vh;
+    padding-left: 30vw;
+    position: absolute;
+}
+
+
+
+ p {
+   color: #AFA9A9;
+} 
+.punk {
+    padding-left: 45.5vw;
+}
+
+.rdr {
+    width: 15vw;
+    margin-top: 20vh;
+    padding-left: 30vw;
+    position: absolute;
+
+
+}
+
+.ciri {
+    width: 15vw;
+    margin-top: 20vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+
+.geralt {
+    padding-left: 22vw;
+    margin-top: 23vh;
+}
+
+.arthur {
+    position: absolute;
+    margin-top: 23vh;
+    padding-left: 45.6vw;
+} 
+#death_loop img {
+    width: 15vw;
+    margin-top: 25vh;
+    padding-left: 6.5vw;
+    position: absolute;
+}
+.nioh-2 img{
+    width: 15vw;
+    margin-top: 25vh;
+    padding-left: 30vw;
+    position: absolute;
+}
+
+.nioh-2 p {
+    position: absolute;
+    margin-top: 27vh;
+    padding-left: 46.4vw;
+}
+#death-loop{  
+    position: absolute;
+    margin-top: 27vh;
+    padding-left: 23vw;
+}
+
+}
