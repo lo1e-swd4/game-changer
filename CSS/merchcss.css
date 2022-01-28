@@ -1,0 +1,136 @@
+* {
+    margin: 0; padding: 0;
+}
+
+body {
+    background-image: url(../IMG/skyrim.png);
+    background-size: cover;
+}
+
+#header {
+    max-width: 100%
+    border: solid;
+    background-color: #444243;
+}
+
+#header nav {
+    flex: 1;
+}
+
+#header img {
+    width: 110px;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* end of header */
+/* begin of main */
+
+#main {
+    width: 54vw;
+    margin: 10vh auto;
+    background-color:  #444242;
+    
+
+}
+/* end of main */
+/* begin of footer */
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #444243;
+    border: solid;
+}
+
+#footer p {
+    color: #AFA9A9;
+}
+
+#footer #green{
+    width: 50px;
+}
+
+#footer #red{
+    width: 50px;
+}
+
+.shirts img {
+    width:200px;
+    height: 200px;
+}
+
+#header-toggle,
+#header-toggle + label {
+    display: none;
+}
+
+#navigatie-menu { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navigatie-menu a {
+    color: #AFA9A9;
+
+}
+
+@media screen  and (max-width: 480px){
+    #main main{
+      height: 20vh; 
+      width: 30vw;
+    } 
+     
+    } 
+
+    #header-toggle + label {
+        display: block;
+    }
+
+    #header-toggle ~ #navigatie-menu {
+        display: none;
+    }
+    #header-toggle:checked ~ #navigatie-menu {
+        display: flex;
+    }
+
+    #logo {
+        display:none;
+    }
+
+    #navigatie-menu {
+        flex-direction: column;
+        
+    }
+
+ @media screen and (min-width:769px) and (max-width:1279px) {
+    #main main{
+        height: 20vh; 
+        width: 30vw;
+  }  
+  #navigatie-menu {
+      flex-direction: row;
+  }
+  #logo {
+      display: flex;
+  }
+}    
+ @media screen and (min-width:1280px) {
+        #main main{
+            height: 20vh; 
+            width: 30vw;
+    }
+    #navigatie-menu {
+        flex-direction: row;
+    }
+    #logo {
+        display: flex;
+    }
+}
